@@ -1,41 +1,30 @@
-﻿生成启动时间为 2020/9/13 15:10:37。
-     1>项目“D:\visual\TK\TK\TK.vcxproj”在节点 2 上(rebuild 个目标)。
-     1>_PrepareForClean:
-         正在删除文件“Debug\TK.lastbuildstate”。
-       InitializeBuildStatus:
-         正在对“Debug\TK.unsuccessfulbuild”执行 Touch 任务。
+﻿生成启动时间为 2020/9/19 11:10:10。
+     1>项目“D:\pro\TKTEAM\TK\TK.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\TK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\TK.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt common.cpp "mci-sound.cpp" Tank.cpp TK.cpp
-         TK.cpp
+         所有输出均为最新。
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tank.cpp
          Tank.cpp
-         mci-sound.cpp
-         common.cpp
-         正在生成代码...
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Id /Z7 /nologo- /W2 /WX /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "select-panel.cpp"
-         用于 80x86 的 Microsoft (R) 32 位 C/C++ 优化编译器 16.00.30319.01 版
-         版权所有(C) Microsoft Corporation。保留所有权利。
-         
-         cl /c /Id /Z7 /nologo- /W2 /WX /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "select-panel.cpp"
-     1>cl : 命令行 warning D9035: “nologo-”选项已否决，并将在将来的版本中移除
-         
-     1>cl : 命令行 warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
-         select-panel.cpp
+         所有输出均为最新。
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual\TK\Debug\TK.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\visual\TK\Debug\TK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual\TK\Debug\TK.lib" /MACHINE:X86 Debug\common.obj
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\pro\TKTEAM\Debug\TK.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\pro\TKTEAM\Debug\TK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\pro\TKTEAM\Debug\TK.lib" /MACHINE:X86 Debug\common.obj
+         "Debug\game-clock.obj"
+         "Debug\game-control.obj"
          "Debug\mci-sound.obj"
          "Debug\select-panel.obj"
          Debug\stdafx.obj
+         "Debug\tank-common.obj"
+         "Debug\tank-player.obj"
          Debug\Tank.obj
          Debug\TK.obj
      1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
-         TK.vcxproj -> D:\visual\TK\Debug\TK.exe
+         TK.vcxproj -> D:\pro\TKTEAM\Debug\TK.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\TK.unsuccessfulbuild”。
          正在对“Debug\TK.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\visual\TK\TK\TK.vcxproj”(rebuild 个目标)的操作。
+     1>已完成生成项目“D:\pro\TKTEAM\TK\TK.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.63
+已用时间 00:00:00.83
