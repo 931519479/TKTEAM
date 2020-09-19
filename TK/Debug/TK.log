@@ -1,11 +1,13 @@
-﻿生成启动时间为 2020/9/19 11:10:10。
+﻿生成启动时间为 2020/9/19 12:54:27。
      1>项目“D:\pro\TKTEAM\TK\TK.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\TK.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tank.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Tank.cpp "game-control.cpp"
+         game-control.cpp
          Tank.cpp
+         正在生成代码...
          所有输出均为最新。
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\pro\TKTEAM\Debug\TK.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\pro\TKTEAM\Debug\TK.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\pro\TKTEAM\Debug\TK.lib" /MACHINE:X86 Debug\common.obj
@@ -18,7 +20,6 @@
          "Debug\tank-player.obj"
          Debug\Tank.obj
          Debug\TK.obj
-     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
          TK.vcxproj -> D:\pro\TKTEAM\Debug\TK.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\TK.unsuccessfulbuild”。
@@ -27,4 +28,4 @@
 
 生成成功。
 
-已用时间 00:00:00.83
+已用时间 00:00:01.04
